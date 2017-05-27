@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BBC0F7E5-9833-4176-AB13-59B7EC318E4F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>FoodDelivery</RootNamespace>
+    <AssemblyName>FoodDelivery</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controller\AccountController.cs" />
+    <Compile Include="Controller\AdminController.cs" />
+    <Compile Include="Controller\ClientOnServer.cs" />
+    <Compile Include="Controller\DeliveryController.cs" />
+    <Compile Include="Controller\Encrypt.cs" />
+    <Compile Include="Controller\MenuController.cs" />
+    <Compile Include="Controller\OrderController.cs" />
+    <Compile Include="Controller\OrderHistoryController.cs" />
+    <Compile Include="Controller\StartController.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Validate\ValidateAddress.cs" />
+    <Compile Include="Validate\ValidateClient.cs" />
+    <Compile Include="Validate\ValidateOrderDetails.cs" />
+    <Compile Include="Validate\ValidatePayment.cs" />
+    <Compile Include="Validate\ValidateProduct.cs" />
+    <Compile Include="View\AdminView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AdminView.Designer.cs">
+      <DependentUpon>AdminView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\DeliveryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\DeliveryView.Designer.cs">
+      <DependentUpon>DeliveryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\IAccountView.cs" />
+    <Compile Include="View\IAdminView.cs" />
+    <Compile Include="View\IDeliveryView.cs" />
+    <Compile Include="View\IMenuView.cs" />
+    <Compile Include="View\IOrderHistoryView.cs" />
+    <Compile Include="View\IOrderView.cs" />
+    <Compile Include="View\IStartView.cs" />
+    <Compile Include="View\AccountView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\AccountView.Designer.cs">
+      <DependentUpon>AccountView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\MenuView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\MenuView.Designer.cs">
+      <DependentUpon>MenuView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\OrderHistoryView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\OrderHistoryView.Designer.cs">
+      <DependentUpon>OrderHistoryView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\OrderView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\OrderView.Designer.cs">
+      <DependentUpon>OrderView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="View\StartView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="View\StartView.Designer.cs">
+      <DependentUpon>StartView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AccountView.resx">
+      <DependentUpon>AccountView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\AdminView.resx">
+      <DependentUpon>AdminView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\DeliveryView.resx">
+      <DependentUpon>DeliveryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\MenuView.resx">
+      <DependentUpon>MenuView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\OrderHistoryView.resx">
+      <DependentUpon>OrderHistoryView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\OrderView.resx">
+      <DependentUpon>OrderView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="View\StartView.resx">
+      <DependentUpon>StartView.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\DataSources\Data.Model.Client.datasource" />
+    <None Include="Properties\DataSources\Data.Model.Order.datasource" />
+    <None Include="Properties\DataSources\Data.Model.Product.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\Control\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-human-person-login-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slide3.jpg" />
+    <None Include="Resources\home_icon.png" />
+    <None Include="Resources\sign_up.png" />
+    <None Include="Resources\menu_icon.png" />
+    <Content Include="Resources\slide1.jpg" />
+    <Content Include="Resources\slide2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Data\SeverData.csproj">
+      <Project>{9F067595-E972-4F7B-AA31-1782589A7146}</Project>
+      <Name>SeverData</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

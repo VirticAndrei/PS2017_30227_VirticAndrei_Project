@@ -1,0 +1,4 @@
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\Data\bin\Debug\Data.dll
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\Data\bin\Debug\Data.pdb
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\Data\obj\Debug\Data.dll
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\Data\obj\Debug\Data.pdb

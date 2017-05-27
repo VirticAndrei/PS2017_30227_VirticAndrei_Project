@@ -1,0 +1,16 @@
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\bin\Debug\FoodDelivery.exe
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\bin\Debug\FoodDelivery.pdb
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\bin\Debug\Data.dll
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\bin\Debug\Data.pdb
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.csprojResolveAssemblyReference.cache
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.Properties.Resources.resources
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.View.AccountView.resources
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.View.AdminView.resources
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.View.MenuView.resources
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.View.OrderHistoryView.resources
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.View.OrderView.resources
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.StartView.resources
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.csproj.GenerateResource.Cache
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.exe
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.pdb
+C:\Users\Andrei\documents\visual studio 2010\Projects\FoodDelivery\FoodDelivery\obj\x86\Debug\FoodDelivery.View.DeliveryView.resources
